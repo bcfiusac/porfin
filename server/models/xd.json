@@ -1,0 +1,25 @@
+{
+  "name": "xd",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "velocidad": {
+      "type": "number",
+      "required": true
+    },
+    "distancia": {
+      "type": "number",
+      "required": true
+    },
+    "tiempoviaje": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
